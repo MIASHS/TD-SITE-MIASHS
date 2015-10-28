@@ -23,7 +23,7 @@ header{
 
 
 body {
-  background: #39639c;
+ background: linear-gradient(to bottom, #14afe5, #000000);
   color: #fff;
 }
 
