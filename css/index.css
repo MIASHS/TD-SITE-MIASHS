@@ -45,7 +45,7 @@ body {
   -moz-transition: all .3s ease;
   transition: all .3s ease;
       left: 0;
-    margin-left: -160px;
+    margin-left: -200px;
     top: 290px;
     position: fixed;
 
@@ -85,7 +85,7 @@ body {
 
 .cn-button {
   position: fixed;
-  left: -30px;
+  left: -50px;
   top: 450px;
   border: none;
   background: none;
