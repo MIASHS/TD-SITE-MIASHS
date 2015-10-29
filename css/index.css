@@ -66,8 +66,8 @@ body {
   transition: all .3s ease;
       left: 0;
     margin-left: -200px;
-    top: 190px;
-    position: absolute;
+    top: 85px;
+    position: relative;
 
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 .cn-button {
-  position: absolute;
+  position: relative;
   left: -50px;
   top: 345px;
   border: none;
