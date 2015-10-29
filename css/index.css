@@ -45,7 +45,7 @@ body {
 
 /**accessibilité*/
 
-.accessNav, .accessNav2, .imgLogo, .presSite p, .presPages, .cn-wrapper ul li a span,  .links, .end{
+.accessNav, .accessNav2, .presSite p, .presPages, .cn-wrapper ul li a span,  .links, .end{
 
   display: none;
 }
@@ -65,28 +65,60 @@ body {
 }
 
 .presSite h1 {
+  /*margin-top: -625px;*/
   margin-top: -50px;
 }
 
 /***/
 
+.imgLogo{
+margin:25%;
+
+}
+
 /**Footer*/
 
 footer{
-
+padding: 0 25% 0 25% ;
 
 }
 
 .hotNews{
 
   position: fixed;
-  bottom: 0px
+  bottom: 0px;
+  background-color: #ffffff;
+  height: 18px;
+  width: 50%;
 
 }
 
-.hNTitle{}
+.triangle{
+  
 
-.hNEntries{}
+width:1px;
+  height:1px;
+  border:1px solid red;
+  border-color:  transparent  transparent  transparent red;
+  border-width:10px;
+float: left;
+z-index: 10;
+  
+}
+
+.hNTitle{
+  background-color: red;
+  float: left;
+}
+
+.hNEntries{
+  float: left;
+  background-color: #ffffff;
+  margin-left: -20px;
+  /*width: 895px;*/
+  
+  
+}
 
 /**/
 
