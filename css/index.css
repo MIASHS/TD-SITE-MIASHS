@@ -25,6 +25,7 @@ h1 {
 
   font-family: 'fifa_welcomeregular', Georgia, serif;
 
+
 }
 
 html,
@@ -34,9 +35,9 @@ body {
 
 header{
     background: rgba(0, 0, 0, 0.01) none repeat scroll 0 0;
-    margin: 0 auto;
-    padding: 2em;
-    text-align: center;
+    /*margin: 0 auto;*/
+    padding: 0 25% 0 25% ;
+    /*text-align: center;*/
     font-family: 'Lato', Arial, sans-serif;
 
 }
@@ -46,6 +47,31 @@ body {
  background: linear-gradient(to bottom, #129DCE, #000000);
   color: #fff;
 }
+
+/**accessibilité*/
+
+.accessNav, .accessNav2, .imgLogo, .presSite p, .presPages, .links, .end{
+
+  display: none;
+}
+
+.presSite {
+  /*margin-top: -50px;*/
+  
+  border:1px solid #069;
+  border-color: #069  transparent transparent transparent;
+  border-width:75px;
+  text-align: center;
+   font-size: 75%;
+}
+
+.presSite h1 {
+
+  margin-top: -50px;
+}
+
+
+/***/
 
 .csstransforms .cn-wrapper {
   transform: rotate(90deg);
