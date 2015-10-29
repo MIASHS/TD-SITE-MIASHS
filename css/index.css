@@ -32,7 +32,7 @@ body {
 
 header{
     background: rgba(0, 0, 0, 0.01) none repeat scroll 0 0;
-    padding: 0 25% 0 25% ;
+    /*padding: 0 25% 0 25% ;*/
     font-family: 'Lato', Arial, sans-serif;
     height: 75px;
 }
@@ -41,6 +41,7 @@ header{
 body {
  background: linear-gradient(to bottom, #129DCE, #000000);
   color: #fff;
+
 }
 
 /**accessibilité*/
@@ -79,7 +80,7 @@ margin:25%;
 /**Footer*/
 
 footer{
-padding: 0 25% 0 25% ;
+/*padding: 0 25% 0 25% ;*/
 
 }
 
@@ -113,12 +114,21 @@ z-index: 10;
 
 .hNEntries{
   float: left;
-  background-color: #ffffff;
-  margin-left: -20px;
+  /*background-color: #ffffff;*/
+  /*margin-left: -20px;*/
   /*width: 895px;*/
   
   
 }
+
+.container{
+  /*height:450px;*/
+  /*padding-top: 15%;*/
+  /*width: 800px;*/
+  margin: 0 25% 0 25%;
+
+}
+
 
 /**/
 
@@ -128,7 +138,9 @@ z-index: 10;
   width: 26em;
   height: 26em;
   overflow: hidden;
-  
+  /*position: absolute;*/
+  left: -200px;
+  top: -105px ;
   z-index: 10;
   /*bottom: -13em;*/
   -webkit-transform: scale(0.1);
@@ -139,19 +151,28 @@ z-index: 10;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   transition: all .3s ease;
-      left: 0;
+  
+      /*left: 0;*/
 
-    margin-left: -200px;
-    margin-top: -200px
+    /*margin-left: -50%;
+    margin-top: -60%;*/
   
     /*position: relative;*/
 
 }
 
+.component {
+  position: fixed;
+  left: 0;
+  margin-top: 10%;
+  padding: 5% 0 5% 0;
+  height: 26em;
+  width: 13em;
+}
 
-.component{
-  /*height:450px;*/
-  padding-top: 15%;
+.cn-button{
+  margin: 25% 0 25% 0;
+  
 }
 
 .csstransforms .opened-nav {
@@ -162,6 +183,7 @@ z-index: 10;
   -ms-transform: scale(1);
   transform: scale(1);
   transform: rotate(90deg);
+  
 }
 
 .cn-overlay {
@@ -188,7 +210,9 @@ z-index: 10;
 
 .cn-button {
   left: -50px;
-  
+  position: absolute;
+  /*left: -50px;*/
+  /*margin-left: -90%;*/
   border: none;
   background: none;
   color: #39639c;
@@ -198,9 +222,9 @@ z-index: 10;
   height: 3.5em;
   width: 3.5em;
   background-color: #fff;
-  right: 0;
+  /*right: 0;*/
   padding-left: 40px;
-  bottom: -1.75em;
+  /*bottom: -1.75em;*/
   border-radius: 50%;
   cursor: pointer;
   z-index: 11;
