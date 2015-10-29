@@ -22,10 +22,7 @@
 }
 
 h1 {
-
   font-family: 'fifa_welcomeregular', Georgia, serif;
-
-
 }
 
 html,
@@ -35,11 +32,9 @@ body {
 
 header{
     background: rgba(0, 0, 0, 0.01) none repeat scroll 0 0;
-    /*margin: 0 auto;*/
     padding: 0 25% 0 25% ;
-    /*text-align: center;*/
     font-family: 'Lato', Arial, sans-serif;
-
+    height: 75px;
 }
 
 
@@ -50,14 +45,18 @@ body {
 
 /**accessibilité*/
 
-.accessNav, .accessNav2, .imgLogo, .presSite p, .presPages, .links, .end{
+.accessNav, .accessNav2, .imgLogo, .presSite p, .presPages, .cn-wrapper ul li a span,  .links, .end{
 
   display: none;
 }
 
+
+
+/**/
+
+/*header section*/
+
 .presSite {
-  /*margin-top: -50px;*/
-  
   border:1px solid #069;
   border-color: #069  transparent transparent transparent;
   border-width:75px;
@@ -66,12 +65,30 @@ body {
 }
 
 .presSite h1 {
-
   margin-top: -50px;
 }
 
-
 /***/
+
+/**Footer*/
+
+footer{
+
+
+}
+
+.hotNews{
+
+  position: fixed;
+  bottom: 0px
+
+}
+
+.hNTitle{}
+
+.hNEntries{}
+
+/**/
 
 .csstransforms .cn-wrapper {
   transform: rotate(90deg);
@@ -79,9 +96,9 @@ body {
   width: 26em;
   height: 26em;
   overflow: hidden;
-  position: fixed;
+  
   z-index: 10;
-  bottom: -13em;
+  /*bottom: -13em;*/
   -webkit-transform: scale(0.1);
   -ms-transform: scale(0.1);
   -moz-transform: scale(0.1);
@@ -91,10 +108,18 @@ body {
   -moz-transition: all .3s ease;
   transition: all .3s ease;
       left: 0;
-    margin-left: -200px;
-    top: 85px;
-    position: relative;
 
+    margin-left: -200px;
+    margin-top: -200px
+  
+    /*position: relative;*/
+
+}
+
+
+.component{
+  /*height:450px;*/
+  padding-top: 15%;
 }
 
 .csstransforms .opened-nav {
@@ -130,9 +155,8 @@ body {
 }
 
 .cn-button {
-  position: relative;
   left: -50px;
-  top: 345px;
+  
   border: none;
   background: none;
   color: #39639c;
