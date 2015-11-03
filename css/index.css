@@ -23,6 +23,11 @@
 
 h1 {
   font-family: 'fifa_welcomeregular', Georgia, serif;
+
+}
+h1 a {
+
+	color: white;
 }
 
 html,
@@ -51,7 +56,16 @@ body {
   display: none;
 }
 
+a{
+	text-decoration: none;
+	color: black;
+}
 
+a:activate{
+	text-decoration: none;
+	color: black;
+
+}
 
 /**/
 
@@ -103,8 +117,8 @@ margin:25%;
 .content{
 	height: 100%;
 	margin: 0 75px 0 75px;
-	
-	background-color: white;
+	border-top: 1px solid black;
+	background-color: rgba(255, 255, 255, 0.75);
 	
 }
 
@@ -133,7 +147,7 @@ width:1px;
   height:1px;
   border:1px solid red;
   border-color:  transparent  transparent  transparent red;
-  border-width:10px;
+  border-width:11px;
 float: left;
 z-index: 10;
   

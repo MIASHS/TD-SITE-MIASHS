@@ -1,39 +1,87 @@
 <!DOCTYPE html>
-<html lang="fr" class="no-js">
+<html lang="en" class="no-js"><!--fr plutôt non ?-->
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-		<title>Site-Euro</title>
+		<title>UEFA European Championship</title>
 
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="../css/index.css" />
-		<script src="../js/modernizr-2.6.2.min.js"></script>
+		<link rel="shortcut icon" href="./../img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="./../css/index.css" />
+		<script src="./../js/modernizr-2.6.2.min.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			
-			<header>
-				<h1>Euro Football <span> Les stades</span></h1>	
-			</header>
-			
-			<div class="component">
-				
-				<button class="cn-button" id="cn-button">+</button>
-				<div class="cn-wrapper" id="cn-wrapper">
-				    <ul>
-				      <li><a href="#">Home<span class="icon-picture"></span></a></li>
-				      <li><a href="#"><span class="icon-headphones"></span></a></li>
-				      <li><a href="#"><span class="icon-home"></span></a></li>
-				      <li><a href="#"><span class="icon-facetime-video"></span></a></li>
-				      <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
-				     </ul>
+		<div class="containerPages">
+			<div class="container">
+				<header>
+					<div class="accessNav">
+						<ul>
+							<li><a href="#"> Aller au contenu </a></li>
+							<li><a href="#"> Aller à la navigation </a></li>
+							<li><a href="#"> Aller à la recherche </a></li>
+						</ul>
+					</div>
+
+					<div class="accessNav2">
+						<ul>
+							<li><a href="#"> Plan du site </a></li>
+							<li><a href="#"> Accessibilité </a></li>
+							<li><a href="#"> Actualités </a></li>
+							<li><a href="#"> Agenda </a></li>
+						</ul>
+					</div>
+					<div class= "presSite">
+						<img src="./../img/logo.png" alt="le logo de l'Euro 2016" class="imgLogoPages">
+						<h1><a href="./../index.html">UEFA Championnat d'Europe de football</a></h1>	
+						<p>Bienvenu sur le site non-officiel du Championnat d'Europe de football de l'UEFA. Réalisé par deux étudiants de licence MIASHS L2 de le cadre d'un TD, vous permettra d'accèder à diverses informations sur cette grande compétition. Parmi celles-ci vous retrouverez les décriptions de la compétition, des équipes, des stades et plus encore. Bonne visite à vous. N'hésitez vous à nous laisser vos appréciations via le formulaire de contact.</p>
+					</div>
+
+					<div class= "presPages">Vous êtes actuellement sur la page d'accueil. Cette page a été pensé pour permettre la meilleure navigation possible pour les personnes nécessitant l'assistance de modules dédiés afin que tout le monde puisse avoir accès à l'information.</div>
+				</header>
+				<div class="content">
+					
+
 				</div>
-				<div id="cn-overlay" class="cn-overlay"></div>
-				
+				<div class="component">
+					
+					<button class="cn-button" id="cn-button">+</button><!--Il faut remplacer ce bouton par un div et le plus n'est il pas possible de l'afficher en css ?-->
+					<div class="cn-wrapper" id="cn-wrapper">
+					    <ul>
+					      <li><a href="#"><span class="icon-picture">Présentation</span></a></li><!-- Penser à renommer ces classes, ça fait très copier coller =) -->
+					      <li><a href="#"><span class="icon-headphones">Compétition</span></a></li>
+					      <li><a href="#"><span class="icon-home">Equipes</span></a></li>
+					      <li><a href="#"><span class="icon-facetime-video">Stades</span></a></li>
+					      <li><a href="#"><span class="icon-envelope-alt">Contact</span></a></li>
+					     </ul>
+					</div>
+					<div id="cn-overlay" class="cn-overlay"></div>
+					
+				</div>
+				<footer>
+					<div class="hotNews">
+						<div class="hNTitle"><a href="#">Hot News</a></div>
+						<div class="triangle"></div>
+						<div class="hNEntries">
+							<a href="#"></a>
+						</div>
+					</div>
+					<div class="links">
+						<ul>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Liens</a></li>
+						</ul>
+					</div>
+					<div class="end">
+						<ul>
+							<li><a href="#">Réalisé par Gabriel Giroud et Valère Richier</a></li>
+							<li><a href="#">Mentions légales</a></li>
+						</ul>
+					</div>
+				</footer>
 			</div>
 		</div>
-		<script src="../js/polyfills.js"></script>
-		<script src="../js/anim1.js"></script>
+		<script src="./../js/polyfills.js"></script>
+		<script src="./../js/anim1.js"></script>
    
 	</body>
 </html>
