@@ -326,12 +326,12 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 
 .csstransforms .cn-wrapper li:nth-child(odd) a {
   background-color: #;
-  background-color: #2d4f7c;
+  background-color: #5683b6;
 }
 
 .csstransforms .cn-wrapper li:nth-child(even) a {
   background-color: #;
-  background-color: #39639c;
+  background-color: #446992;
 }
 
 /* active style */
