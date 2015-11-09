@@ -77,6 +77,7 @@ a:activate{
   border-width:75px;
   text-align: center;
    font-size: 75%;
+
 }
 
 .presSite h1 {
@@ -115,9 +116,12 @@ margin:25%;
 
 }
 .content{
+	
+	top:10px;
 	height: 100%;
 	margin: 0 75px 0 75px;
-	border-top: 1px solid black;
+	box-shadow:5px 5px 10px #000000;
+		border-radius: 10px 10px 10px 10px;
 	background-color: rgba(255, 255, 255, 0.75);
 	
 }
@@ -217,6 +221,8 @@ z-index: 10;
 
 .cn-button{
   margin: 25% 0 25% 0;
+  	box-shadow:5px 5px 10px #000000;
+
   
 }
 
