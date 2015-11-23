@@ -497,6 +497,17 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   color: #fff;
 }
 
+/*.icon{
+
+	width: 10px;
+	height: 10px;
+}
+
+.icon-envelope-alt{
+	background-image: url('./../img/icon/icon-contact.png');
+
+}*/
+
 .no-csstransforms .cn-wrapper {
   font-size: 1em;
   height: 5em;
