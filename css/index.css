@@ -503,10 +503,34 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 	height: 10px;
 }
 
-.icon-envelope-alt{
+.icon-enveloppe-alt{
 	background-image: url('./../img/icon/icon-contact.png');
 
 }*/
+
+.icon-presentation{
+background-image:  url('./../img/icon/icon-presentation.png');
+background-size: 50px 50px;
+}
+.icon-competition{
+background-image:  url('./../img/icon/icon-competition.png');
+background-size: 50px 50px;
+}
+
+.icon-equipe{
+background-image:  url('./../img/icon/icon-equipe.png');
+background-size: 50px 50px;
+}
+
+.icon-stade{
+background-image:  url('./../img/icon/icon-stadium.png');
+background-size: 50px 50px;
+}
+
+.icon-contact{
+background-image:  url('./../img/icon/icon-contact.png');
+background-size: 50px 50px;
+}
 
 .no-csstransforms .cn-wrapper {
   font-size: 1em;
