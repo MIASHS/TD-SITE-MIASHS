@@ -1,4 +1,6 @@
- 				Name 	OVA 	ATT 	MID 	DEF 	SAA 	TAA 	IP 	DP 	Hits
+http://sofifa.com/teams?tp=national 
+
+				Name 	OVA 	ATT 	MID 	DEF 	SAA 	TAA 	IP 	DP 	Hits
 	 		
 	 		England		80 	79 	80 	80 	25.82 	25.35 	16 	20 	906
 	 		France		82 	80 	82 	81 	26.91 	26.65 	18 	20 	859
