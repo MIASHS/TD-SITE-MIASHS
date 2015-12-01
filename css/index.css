@@ -260,8 +260,9 @@ z-index: 10;
     
 }
 
-#ImgStyle ul li:nth-child(5n) {
-    clear: left;
+#ImgStyle ul li:nth-child(4n) {
+    display: none;
+
 }
 
 
@@ -299,7 +300,7 @@ z-index: 10;
     transition-duration: 0.4s;
     transition-property: width, height, z-index;
     width: 150px !important;
-    z-index: 20;
+    z-index: 20;,
 }
 
 #ImgStyle ul li a:hover img.bigImg {
