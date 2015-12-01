@@ -118,13 +118,14 @@ margin:25%;
 .content{
 	
 	top:10px;
+  right: 30px;
 	height: 100%;
-  width: 120%;
+  width: 800px;
 	margin: 0 75px 0 75px;
 	box-shadow:5px 5px 10px #000000;
 	border-radius: 10px 10px 10px 10px;
 	background-color: rgba(255, 255, 255, 0.75);
-  overflow: visible;
+  overflow: auto;
 	
 }
 
@@ -238,7 +239,8 @@ z-index: 10;
     font-family: "Trebuchet MS",sans-serif;
     font-size: 0.9em;
     height: 400px;
-    width: 1000px;
+    width: 855px;
+    margin-left: -40px;
 }
 
 #ImgStyle ul {
