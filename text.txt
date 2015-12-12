@@ -290,7 +290,9 @@ Demi-finales
 Horaires HEC.
 
 www.arema-velodrome.com/
-
+window.onload = function(){
+	//début du programme
+}
 Nice
 
 Stade de Nice
