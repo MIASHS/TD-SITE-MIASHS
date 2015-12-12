@@ -117,14 +117,14 @@ margin:25%;
 }
 .content{
 	
-	top:10px;
+
 	height: 100%;
-  width: 730px;
+
 	box-shadow:5px 5px 10px #000000;
 	border-radius: 10px 10px 10px 10px;
 	background-color: rgba(255, 255, 255, 0.75);
   overflow: auto;
-  left: 75px;
+	margin:10px 8% 0 8%;
 	
 }
 
@@ -238,19 +238,16 @@ z-index: 10;
     font-family: "Trebuchet MS",sans-serif;
     font-size: 0.9em;
     height: 400px;
-    width: 855px;
-    margin-left: -115px; 
-    margin-top: -20px; 
-    top: -20px;
+    
 }
 
 #ImgStyle ul {
     background: transparent none repeat scroll 0 0;
     float: left;
-    margin: 90px 150px;
+    margin: 0 9% 0 9%;
     position: relative;
     height: 640px;
-    width: 675px;
+    
 }
 
 #ImgStyle ul li {
