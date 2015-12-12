@@ -21,6 +21,28 @@
 
 }
 
+table {
+	top: 10%;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    background-color: #cccccc;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+
+th {
+    background-color: #069;
+    color: white;
+}
 h1 {
   font-family: 'fifa_welcomeregular', Georgia, serif;
 
@@ -239,6 +261,7 @@ z-index: 10;
     font-family: "Trebuchet MS",sans-serif;
     font-size: 0.9em;
     height: 400px;
+    right: -8%;
     
 }
 
