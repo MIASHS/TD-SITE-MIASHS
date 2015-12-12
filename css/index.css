@@ -914,10 +914,12 @@ text-align:center;
 
 #diagram {
 float:right;
-width:600px;
-height:600px;
+width:50%;
+height:15%;
 padding-left: 0px;
+right: 150px;
 }
+
 
 .get {
 display:none;
