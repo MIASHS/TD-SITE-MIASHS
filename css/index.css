@@ -189,7 +189,8 @@ footer{
   position: fixed;
   bottom: 0px;
   background-color: #ffffff;
-  height: 20px;
+  height: 20px
+  margin-left:-5.5%;
   width: 50%;
   /*border-top:2px solid black;*/
   border-radius: 6px 6px 6px 6px;
@@ -200,10 +201,10 @@ footer{
   
 
 width:1px;
-  height:1px;
-  border:1px solid red;
-  border-color:  transparent  transparent  transparent red;
-  border-width:11px;
+height:1px;
+border:1px solid red;
+border-color:  transparent  transparent  transparent red;
+ border-width:11px;
 float: left;
 z-index: 10;
   
