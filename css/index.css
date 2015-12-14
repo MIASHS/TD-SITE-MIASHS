@@ -30,7 +30,7 @@ h2{
 }
 
 
-table {
+.tab table {
 	top: 3%;
     width: 100%;
     background-color: #ffffff;
@@ -41,16 +41,16 @@ table {
 
 
 
-th, td {
+.tab th,.tab td {
     text-align: left;
     padding: 8px;
     background-color: #cccccc;
 }
 
-tr:nth-child(even){background-color: #f2f2f2;}
+.tab tr:nth-child(even){background-color: #f2f2f2;}
 
 
-th {
+.tab th {
     background-color: #069;
     color: white;
 }
@@ -958,3 +958,12 @@ top: 4%;
 .get {
 display:none;
 }
+
+/* Calendar */
+
+
+  #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+  }
