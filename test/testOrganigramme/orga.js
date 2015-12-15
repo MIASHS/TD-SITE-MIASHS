@@ -1,4 +1,4 @@
-$( ".simulation" ).click(function() {
+$(".simulation").click(function() {
   if($(".quart .vm1 a").html()==""){
 	  var chapeau1= ["France","Espagne","Portugal","Allemagne","Angleterre","Belgique"];
 	  var chapeau2= ["Italie","Russie","Suisse","Autriche","Croatie","Ukraine"];
@@ -24,7 +24,6 @@ $( ".simulation" ).click(function() {
 	  	x = Math.floor((Math.random() * 5)+1);
 	  	trucVrai=1;
 	  };
-
 	  i=0;
 	  var y = Math.floor((Math.random() * 3)+1);
 	  var verifTab2=new Array();

@@ -381,7 +381,7 @@ ul li a{
      transition-duration:0.4s;
 }
 
-ul li a:hover{
+ ul li a:hover{
      position:absolute;
      width:200px;height:200px;
      margin-top:-56px;margin-left:-56px;
@@ -646,6 +646,11 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
   background-color: #eee;
   text-align: center;
   line-height: 5em;
+}
+
+video{
+  z-index: 100;
+  width:100%; 
 }
 
 .no-csstransforms .cn-wrapper li a {
