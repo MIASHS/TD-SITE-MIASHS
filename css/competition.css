@@ -129,7 +129,7 @@ margin:25%;
 }
 
 /*Title page*/
-ul{
+.orga ul{
   float: left;
   width: 12%;
 }  
@@ -181,9 +181,9 @@ float: right;
 }
 
 .orga{
-  padding-top: 5%;
-  width: 180%;
-  margin-left: -40%;
+  padding-top:5%;
+  width: 145%;
+  margin-left: -22.5%;
 }
 
 .huitieme{
